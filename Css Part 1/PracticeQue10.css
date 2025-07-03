@@ -1,0 +1,14 @@
+h2{
+    color: orangered;
+}
+
+p{
+   background-color: black;
+   color: white;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    /* color: #ff00ff; */
+}

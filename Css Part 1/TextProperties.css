@@ -1,0 +1,20 @@
+h1{
+    /* text-align: center; */
+    text-align: right;
+    text-decoration: red underline;
+    font-family: Fantasy;
+    text-decoration-style:wavy ;
+}
+
+p{
+    /* text-align: justify; 
+    font-weight: bold;  */
+    line-height: 2.5;
+}
+
+h2{
+    text-decoration: double blue line-through;
+    letter-spacing: 10px;
+    
+ 
+}

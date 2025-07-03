@@ -1,0 +1,19 @@
+h1{
+    color: blueviolet;
+    background-color: #000;
+}
+
+h2{
+    color: chocolate;
+    background-color: green;
+}
+
+h3{
+    color: chartreuse;
+    background-color: black;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
