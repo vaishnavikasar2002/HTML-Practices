@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <!-- 5. Task for Day 4
+Create a student registration form with:
+Name , Email , Password , Gender (radio) , Skills (checkbox) , Date of birth ,Submit button
+Create a table showing:
+Student Name , Course , Year -->
+
+<h1>Form</h1>
+
+<form action="">
+    Name : <input name="name" type="text" placeholder="Enter Name" required> <br> <br>
+    EMail : <input name="email" type="email" placeholder="Enter Email" required> <br> <br>
+    Password : <input type="password" name="password" placeholder="Enter password"> <br> <br>
+    Gender : 
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female">Female
+    <br> <br>
+    Skills : <br> 
+    <input type="checkbox" name="skills[]" value="html">HTML <br> 
+    <input type="checkbox" name="skills[]" value="css">CSS <br> 
+    <input type="checkbox" name="skills[]" value="node.js">Node.js <br> 
+    <input type="checkbox" name="skills[]" value="sql">SQL <br> 
+    <input type="checkbox" name="skills[]" value="react">React
+ 
+    <br> <br> 
+    Date : <input type="date" name="dob">
+
+    <br> <br> 
+
+    <input type="submit" value="register">
+    
+</form>
+<hr>
+<h1>Table</h1>
+
+
+<table >
+    <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>Vaishnavi Kasar</td>
+        <td>Computer Science</td>
+        <td>2025</td>
+    </tr>
+    <tr>
+        <td>Asmita Patil</td>
+        <td>B.A</td>
+        <td>2017</td>
+    </tr>
+    <tr>
+        <td>Omkar Kasar</td>
+        <td>Electrical Engineer</td>
+        <td>2020</td>
+    </tr>
+</table>
+</body>
+</html>
